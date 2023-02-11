@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
       else if (userPick.getAttribute("id") === housePick.getAttribute("id")) createWinner("DRAW");
       else{
-         createWinner("HOUSE WINS");
+         createWinner("YOU LOSE");
          score--;
       } 
 
